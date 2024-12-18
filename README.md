@@ -6,6 +6,7 @@
 * A complete pipelined architecture was used as shown below.
 ![alt text](architecture.jpg)
 
+```
 ├── Data Ingestion  
 │   ├── Training_Batch_Files             # Input files for training  
 │   ├── Prediction_Batch_files           # Input files for prediction  
@@ -40,5 +41,6 @@
     ├── schema_training.json             # Schema definition for training data  
     ├── schema_prediction.json           # Schema definition for prediction data  
     ├── runtime.txt                      # Runtime configuration file  
-    └── requirements.txt                 # List of required libraries and dependencies  
+    └── requirements.txt                 # List of required libraries and dependencies
+```
 
